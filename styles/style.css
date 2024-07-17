@@ -1,3 +1,5 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -17,56 +19,18 @@
 
 body {
     height: 100vh;
-    font-family: Helvetica;
+    font-family: "Red Hat Display", sans-serif;
     font-size: 16px;
     background-color: #8176df;
 }
 
 /* Replace the fonts with the fonts used for presentation  */
-@font-face {
-    font-family: 'ameliaroundedbold';
-    src: url(../fonts/ameliarounded-bold.otf);
-    font-weight: normal;
-    font-style: normal;
-}
-
-/* ameliaroundedbold */
-@font-face {
-    font-family: 'ameliaroundedbolditalic';
-    src: url(../fonts/amelia-rounded-regular.otf);
-    font-weight: normal;
-    font-style: normal;
-}
-
-/* ameliaroundedbolditalic */
-@font-face {
-    font-family: 'ameliaroundedlight';
-    src: url(../fonts/amelia-rounded-light.otf);
-    font-weight: normal;
-    font-style: normal;
-}
-
-/* ameliaroundedlight */
-@font-face {
-    font-family: 'ameliaroundedregular';
-    src: url(../fonts/amelia-rounded-regular.otf);
-    font-weight: normal;
-    font-style: normal;
-}
-
-/* ameliaroundedregular */
-@font-face {
-    font-family: 'ameliaroundedregularitalic';
-    src: url(../fonts/ameliarounded-regularitalic.otf);
-    font-weight: normal;
-    font-style: normal;
-}
 
 /* ameliaroundedregularitalic*/
 
 /**************font family**********/
 
-.fontBold {
+/* .fontBold {
     font-family: 'ameliaroundedbold';
 }
 
@@ -84,7 +48,7 @@ body {
 
 .fontRegularItalic {
     font-family: 'ameliaroundedregularitalic';
-}
+} */
 
 /**************font colors**********/
 
