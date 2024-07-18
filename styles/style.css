@@ -24,33 +24,7 @@ body {
     background-color: #8176df;
 }
 
-/* Replace the fonts with the fonts used for presentation  */
 
-/* ameliaroundedregularitalic*/
-
-/**************font family**********/
-
-/* .fontBold {
-    font-family: 'ameliaroundedbold';
-}
-
-.fontBoldItalic {
-    font-family: 'ameliaroundedbolditalic';
-}
-
-.fontLight {
-    font-family: 'ameliaroundedlight';
-}
-
-.fontRegular {
-    font-family: 'ameliaroundedregular';
-}
-
-.fontRegularItalic {
-    font-family: 'ameliaroundedregularitalic';
-} */
-
-/**************font colors**********/
 
 .colorBlue {
     color: #001388
@@ -93,8 +67,8 @@ body {
 }
 
 .colorCngColor {
-    margin-top: 16px;
-    font-size: 17px;
+    margin-top: 12px;
+    font-size: 12px;
     color: #8176df;
     font-weight: bold;
 }
@@ -112,7 +86,10 @@ body {
 */
 	
 }
-
+.crdCntTop picture img{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
 .wrapper {
     width: 100%;
     height: 100%;
@@ -133,13 +110,14 @@ body {
     border:1px solid #ff0;
     background-color:#fff;
     opacity: 0.5;
+    margin-top: -61px;
 }
 
 .crdCntTop {
     width: 100%;
-    height: 172px;
-    background: url("../assets/illustration-hero.svg") no-repeat;
-    background-size: cover;
+    /* height: 172px; */
+    /* background: url("../assets/illustration-hero.svg") no-repeat;
+    background-size: cover; */
     border-top-left-radius: 14px;
     border-top-right-radius: 14px;
 }
@@ -151,7 +129,7 @@ body {
 }
 
 .hd1 {
-    margin-top:20px;
+    margin-top: -13px;
     font-size: 24px;
     font-weight: bold;
 }
@@ -161,68 +139,68 @@ body {
     /* line-height: 18px; */
     padding-left: 70px;
     padding-right: 70px;
-    padding-top: 20px;
+    padding-top: 3px;
     line-height: 21px;
 }
 
 .paymentCnt {
     width: 100%;
     display: flex;
-    height: 108px;
+    /* height: 108px; */
     margin-bottom: 20px;
-    margin-top: 20px;
+    margin-top: 19px;
     text-align: center;
     justify-content: center;
 }
 
 .subpay {
     width: 300px;
-    height: 100px;
+    /* height: 100px; */
     background-color: #f8f9fe;
     border-radius: 8px;
     margin: auto;
     display: flex;
-
 }
 
 .item1 {
-    width: 55px;
-    height: 65px;
+    width: 40px;
+    /* height: 65px; */
     text-align: center;
     background-image: url(../assets/icon-music.svg);
     background-repeat: no-repeat;
     background-size: contain;
-    margin-top: 20px;
-    margin-left: 10px;
+    margin-top: 19px;
+    margin-left: 28px;
+    padding-left: 21px;
 }
 
 .item2 {
     width: 157px;
-    height: 65px;
+    /* height: 65px; */
     text-align: center;
-    margin-top: 20px;
+    margin-top: 19px;
+    padding-left: 3px;
 }
 
 .item3 {
-    width: 75px;
-    height: 65px;
+    width: 54px;
+    /* height: 65px; */
     text-align: center;
     margin-top: 20px;
 }
 
 .itm2_txt1 {
-    font-size: 22px;
+    font-size: 14px;
     text-align: left;
     padding-left: 12px;
-
+    font-weight: bold;
 }
 
 .itm2_txt2 {
-    font-size: 22px;
+    font-size: 14px;
     text-align: left;
     padding-left: 12px;
-    padding-top: 10px;
-
+    padding-top: 3px;
 }
 
 .itm3_icn {
@@ -237,7 +215,7 @@ body {
 
 .prcicn2 {
     margin-left: 220px;
-    margin-top: -10px;
+    margin-top: -20px;
 }
 
 .prcicn3 {
@@ -246,28 +224,35 @@ body {
 }
 
 .payBtn {
-    width: 300px;
-    height: 52px;
+    width: 86%;
+    /* height: 45px; */
     background-color: #766cf1;
     border-radius: 8px;
-    margin: auto;
+    margin: center;
+    margin-left: 25px;
 }
 
 .payBtntxt1 {
-    line-height: 50px;
-
+    font-size: 14px;
+    line-height: 45px;
+    font-weight: bold;
+    /* padding-top: 4px !important; */
+    /* padding-left: 20px; */
+    text-align: center;
 }
 
 .CnlOrd {
-    width: 300px;
-    height: 30px;
+    width: 100%;
+    /* height: 30px; */
     border-radius: 8px;
-    margin: auto;
-    margin-top: 20px;
+    margin-top: 21px;
+    margin-bottom: 16px;
+    /* margin-top: 20px; */
 }
 
 .CnlOrd2 {
-    margin-top: 30px;
+    margin-top: 0px;
+    font-weight: bold;
 }
 
 /* Extra small devices (phones, 600px and down) */
