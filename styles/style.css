@@ -109,8 +109,9 @@ body {
     box-shadow: 1px 3px 6px #cecece;
     border:1px solid #ff0;
     background-color:#fff;
-    opacity: 0.5;
+  
     margin-top: -61px;
+    overflow:hidden;
 }
 
 .crdCntTop {
