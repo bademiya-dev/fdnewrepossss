@@ -5,7 +5,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-.dummybg{
+dummybg{
 	width:100%;
 	height:100vh;
 	
@@ -69,21 +69,26 @@ body {
 .colorCngColor {
     margin-top: 12px;
     font-size: 12px;
+    color: #1b2548;
+    font-weight: bold;
+}
+.colorCngColor:hover{
     color: #8176df;
     font-weight: bold;
+    text-decoration: underline;
 }
 
 /*-------------------------------------------------------------------------------*/
 .container {
     width:100%;
     height: 100vh;
-    border:1px solid #000;
-    /*
+    
+    
     background-image: url(../assets/pattern-background-desktop.svg);
     background-repeat: no-repeat;
     background-size: contain;
-*/
-    opacity: 0.8;
+    background-color:#eef2ff;
+    
 }
 .crdCntTop picture img{
     border-top-left-radius: 10px;
@@ -96,7 +101,8 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
-	border:1px solid #000;
+	
+    
 }
 
 .card {
@@ -106,9 +112,7 @@ body {
     background: #fff;
     border-radius: 20px;
     box-shadow: 1px 3px 6px #cecece;
-    border:1px solid #ff0;
     background-color:#fff;
-    margin-top: 0px;
     overflow:hidden;
 }
 
@@ -124,11 +128,11 @@ body {
 .crdCntBtm {
     width: 100%;
 /*     height: 372px; */
-	border:1px solid #f00;
+	
 }
 
 .hd1 {
-    margin-top: 63px;
+    margin-top: 9px;
     font-size: 27px;
     font-weight: 900;
 }
@@ -138,8 +142,9 @@ body {
     /* line-height: 18px; */
     padding-left: 70px;
     padding-right: 70px;
-    padding-top: 18px;
+    padding-top: 3px;
     line-height: 24px;
+    margin-top: 14px;
 }
 
 .paymentCnt {
@@ -147,7 +152,7 @@ body {
     display: flex;
     /* height: 108px; */
     margin-bottom: 20px;
-    margin-top: 42px;
+    margin-top: 38px;
     text-align: center;
     justify-content: center;
 }
@@ -175,7 +180,7 @@ body {
 
 .item2 {
     width: 157px;
-    /* height: 65px; */
+    margin-bottom: 20px;
     text-align: center;
     margin-top: 19px;
     padding-left: 3px;
@@ -223,13 +228,22 @@ body {
 }
 
 .payBtn {
-    width: 86%;
+    width: 81%;
     /* height: 45px; */
-    background-color: #766cf1;
+    background-color:#2516d4;
     border-radius: 8px;
     margin: center;
-    margin-top: 94px;
-    margin-left: 25px;
+    margin-top: 76px;
+    /* margin-left: 25px; */
+    text-align: center;
+    margin: auto;
+    margin-top: 1px;
+}
+.payBtn:hover{
+    
+    background-color: #766cf1;
+    color:#fff;
+    
 }
 
 .payBtntxt1 {
@@ -245,8 +259,8 @@ body {
     width: 100%;
     /* height: 30px; */
     border-radius: 8px;
-    margin-top: 90px;
-    margin-bottom: 68px;
+    margin-top: 28px;
+    margin-bottom: 33px;
     /* margin-top: 20px; */
 }
 
@@ -254,35 +268,69 @@ body {
     /* margin-top: -6px; */
     font-weight: bold;
 }
+.CnlOrd2:hover{
+    color:#8689aa;
+}
 
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 375px) {
+/* Media Query for Mobile Devices */
+@media (max-width: 375px) {
     .card {
-        width: 50%;
+        width:330px;
     }
+    .CnlOrd {
+        width: 100%;
+        /* height: 30px; */
+        border-radius: 8px;
+        margin-top: 16px;
+        margin-bottom: 15px;
+        /* margin-top: 20px; */
+    }
+    .container {
+        background-image: url(../assets/pattern-background-desktop.svg);
+        background-repeat: repeat;
+        background-size: contain;
+    
+        
+    }
+ 
 }
 
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
-    ...
+
+@media (max-width: 475px) {
+    .card {
+        width:330px;
+    }
+   
 }
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
-    ...
+/* Media Query for low resolution  Tablets, Ipads */
+@media (min-width: 481px) and (max-width: 767px) {
+    .card {
+        width:375px;
+    }
+ 
 }
 
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-    ...
+/* Media Query for Tablets Ipads portrait mode */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .card {
+        width:451px;
+    }
+ 
 }
 
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
-    ...
+/* Media Query for Laptops and Desktops */
+@media (min-width: 1025px) and (max-width: 1280px) {
+    .card {
+        width:451px;
+    }
+   
 }
 
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
-    ...
+/* Media Query for Large screens */
+@media (min-width: 1281px) {
+    .card {
+        width:451px;
+    }
+    
 }
