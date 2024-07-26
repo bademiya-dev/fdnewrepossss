@@ -101,7 +101,7 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
-	
+	border:1px solid #000;
     
 }
 
@@ -292,7 +292,9 @@ body {
     
         
     }
- 
+    body {
+        background-color: red;
+    }
 }
 
 
@@ -300,7 +302,9 @@ body {
     .card {
         width:330px;
     }
-   
+    body {
+        background-color: red;
+    }
 }
 
 /* Media Query for low resolution  Tablets, Ipads */
@@ -308,7 +312,9 @@ body {
     .card {
         width:375px;
     }
- 
+    body {
+        background-color: yellow;
+    }
 }
 
 /* Media Query for Tablets Ipads portrait mode */
@@ -316,7 +322,9 @@ body {
     .card {
         width:451px;
     }
- 
+    body {
+        background-color: blue;
+    }
 }
 
 /* Media Query for Laptops and Desktops */
@@ -324,7 +332,9 @@ body {
     .card {
         width:451px;
     }
-   
+    body {
+        background-color: green;
+    }
 }
 
 /* Media Query for Large screens */
@@ -332,5 +342,7 @@ body {
     .card {
         width:451px;
     }
-    
+    body {
+        background-color: white;
+    }
 }
